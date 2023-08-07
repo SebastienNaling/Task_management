@@ -9,7 +9,7 @@ const session = require('express-session');
 const mongoDBSession = require('connect-mongodb-session')(session);
 
 const app = express();
-const dbName = 'taskmanagement'; // Define the name of the MongoDB database
+const dbName = 'schedIt'; // Define the name of the MongoDB database
 const tasksCollectionName = 'tasks'; // Define the name of the tasks collection
 const usersCollectionName = 'users'; // Define the name of the users collection
 
